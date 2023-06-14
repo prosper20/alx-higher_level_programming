@@ -2,7 +2,7 @@
 """ Module to print status code """
 import sys
 
-
+""" Class to generates instances with dict and size"""
 class Magic:
     """ Class to generates instances with dict and size"""
     def __init__(self):
