@@ -4,7 +4,7 @@ inheritance of class Base
 """
 from models.base import Base
 
-""" Class Rectangle """
+
 class Rectangle(Base):
     """ Class Rectangle """
 
@@ -104,7 +104,7 @@ class Rectangle(Base):
             for key, value in kwargs.items():
                 setattr(self, key, value)
 
-     def to_dictionary(self):
+    def to_dictionary(self):
         """ method that returs a dictionary with properties """
         list_atr = ['id', 'width', 'height', 'x', 'y']
         dict_res = {}

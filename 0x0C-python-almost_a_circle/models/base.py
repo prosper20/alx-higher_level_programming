@@ -4,7 +4,7 @@ import json
 import csv
 import os.path
 
-""" Class Base """
+
 class Base:
     """ Class Base """
     __nb_objects = 0
